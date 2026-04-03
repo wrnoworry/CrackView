@@ -1,0 +1,41 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+
+# Node (frontend)
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Docker volumes
+mysql_data/
+redis_data/
+kafka_data/
+
+# Logs
+*.log
+logs/
